@@ -4,7 +4,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 import fr.woosy.main.config.Config;
 
@@ -20,7 +19,7 @@ public class Wcps implements CommandExecutor {
                 if (args.length == 0) {
                     if (Config.itemOnCommand) {
                         if (p.isOp() || p.hasPermission(Config.permissionForGive)) {
-                            p.getInventory().addItem(new ItemStack[] { Config.getItem() });
+                            p.getInventory().addItem(Config.getItem());
                         } else {
                             p.sendMessage(Config.getMessageNoPermission());
                         }

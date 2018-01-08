@@ -50,7 +50,7 @@ item_counter_name: "&6Clicks: &e{0} &6| &6Time left: &e{1} second(s)"
 
 
 # Set the message in the chat with the player's test result
-click_rate: "&cAverage: &6{0} click/s"
+click_rate: "&cAverage: &6{0} clicks/s"
 
 
 # Time (in seconds) of the test :

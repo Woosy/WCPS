@@ -15,7 +15,6 @@ import fr.woosy.main.events.OnJoin;
 public class WCPS extends JavaPlugin implements Listener {
 
     ////////////////////////////////////////////////////////////
-    // TODO :
     // PRÉREQUIS
 
     public static WCPS instance;
@@ -24,7 +23,7 @@ public class WCPS extends JavaPlugin implements Listener {
     }
 
     String name = "WCPS";
-    String version = "1.0";
+    String version = "1.0-1";
     String author = "DarkWoosy";
     String specialversion = "SpigotMC";
 
@@ -32,7 +31,6 @@ public class WCPS extends JavaPlugin implements Listener {
 
 
     ////////////////////////////////////////////////////////////
-    // TODO :
     // DÉMARRAGE DU PLUGIN
 
     public void onEnable() {
@@ -59,7 +57,6 @@ public class WCPS extends JavaPlugin implements Listener {
 
 
     ////////////////////////////////////////////////////////////
-    // TODO :
     // ARRÊT DU PLUGIN :
 
     public void onDisable() {
@@ -73,7 +70,6 @@ public class WCPS extends JavaPlugin implements Listener {
 
 
     ////////////////////////////////////////////////////////////
-    // TODO :
     // CHARGEMENT & CRÉATION DE LA CONFIG :
 
     public FileConfiguration getConfig() {

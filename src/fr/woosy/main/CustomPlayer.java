@@ -12,10 +12,10 @@ public class CustomPlayer {
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
     private static ArrayList<CustomPlayer> customPlayers = new ArrayList();
-    Player p;
-    int click;
+    private Player p;
+    private int click;
     public int time = Config.time + 1;
-    boolean clicking = false;
+    private boolean clicking = false;
 
 
     public void start() {
