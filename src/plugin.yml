@@ -1,0 +1,6 @@
+author: DarkWoosy
+version: 1.0
+name: WCPS
+main: fr.woosy.main.WCPS
+commands:
+  wcps:

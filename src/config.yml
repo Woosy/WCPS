@@ -1,0 +1,57 @@
+#
+# THIS IS THE DEFAULT CONFIG, FEEL FREE TO EDIT IT
+#
+# If something goes wrong after modifying it, just delete
+# the file and restart your server. It should create an
+# other file. If this still doesn't work, just copy the
+# default values from the SpigotMC.org plugin's page.
+#
+# If you need more assistance, or just want to contact me,
+# you might reach me on Twitter : @Woosy__
+# and on Discord : Woosy#7327
+
+
+# Should players get the item when they join the server ?
+item_on_join: true
+
+
+# Should players be able to get the item when performing /wpcs ?
+item_on_command: true
+
+# This is the message showed to players who tries to perform the
+# command when it's not enabled :
+message_command_desactivated: "&cSorry, this option isn't enabled."
+
+# This is the permission required to get the item when the command is enabled
+# Note that operators are able to perform the command without the permission
+permission_give_command: "wcps.give"
+
+# This is the message the player gets when cmd is enabled but he doesn't have the permission
+message_no_permission: "&cSorry, you're lacking 'wcps.give' permission."
+
+
+# This is the slot of the inventory where players will get the item
+# Hint : it's usefull to change it when you're running the plugin in a loby server
+# and you don't want the item to erase your menu item or anhything else ;)
+item_slot: 0
+
+
+# Change the item by changing its Material (check wiki if you don't know what that is)
+item_material: ARROW
+
+
+# This shows the name of the item when players didn't started using it
+item_default_name: "&6Right-click, then click as fast as you can!"
+
+
+# This is the name of the item when players are in the test :
+# (WARNING, DO NOT REMOVE {0} & {1} !
+item_counter_name: "&6Clicks: &e{0} &6| &6Time left: &e{1} second(s)"
+
+
+# Set the message in the chat with the player's test result
+click_rate: "&cAverage: &6{0} click/s"
+
+
+# Time (in seconds) of the test :
+time: 10
